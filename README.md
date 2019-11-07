@@ -1,7 +1,5 @@
+### Kausain updated.....
 # A PyTorch implementation of a YOLO v3 Object Detector
-
-[UPDATE] : This repo serves as a driver code for my research. I just graduated college, and am very busy looking for research internship / fellowship roles before eventually applying for a masters. I won't have the time to look into issues for the time being. Thank you.
-
 
 This repository contains code for a object detector based on [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf), implementedin PyTorch. The code is based on the official code of [YOLO v3](https://github.com/pjreddie/darknet), as well as a PyTorch 
 port of the original code, by [marvis](https://github.com/marvis/pytorch-yolo2). One of the goals of this code is to improve
@@ -17,9 +15,13 @@ If you want to understand how to implement this detector by yourself from scratc
 As of now, the code only contains the detection module, but you should expect the training module soon. :) 
 
 ## Requirements
+<mark>For exact list of environments refer packages.txt </mark>
 1. Python 3.5
-2. OpenCV
-3. PyTorch 0.4
+2. Numpy
+3. OpenCV
+4. PyTorch 0.4
+5. pillow
+6. matplotlib
 
 Using PyTorch 0.3 will break the detector.
 
