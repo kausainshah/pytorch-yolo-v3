@@ -15,7 +15,7 @@ If you want to understand how to implement this detector by yourself from scratc
 As of now, the code only contains the detection module, but you should expect the training module soon. :) 
 
 ## Requirements
-`For exact list of environments refer packages.txt`
+`For exact list of packages refer packages.txt`
 1. Python 3.5
 2. Numpy
 3. OpenCV
