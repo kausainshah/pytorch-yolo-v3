@@ -16,9 +16,14 @@ As of now, the code only contains the detection module, but you should expect th
 
 ## Requirements
 `For exact list of packages refer packages.txt`
-1. Python 3.5
+```
+conda create -n env_name python=3.5 opencv-python matplotlib pillow numpy pandas 
+conda install pytorch=0.4.1 cuda90 -c pytorch
+```
+
+1. Python 3.5 
 2. Numpy
-3. OpenCV
+3. OpenCV      
 4. PyTorch 0.4
 5. pillow
 6. matplotlib
@@ -29,7 +34,7 @@ Using PyTorch 0.3 will break the detector.
 
 ## Detection Example
 
-![Detection Example](https://i.imgur.com/m2jwneng.png)
+![Detection Example](./det_messi.jpg)
 ## Running the detector
 
 ### On single or multiple images
